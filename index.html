@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Pins</title>
+  </head>
+  <body>
+    <h1>List of Pins</h1>
+    <table id="pins-table">
+      <thead>
+        <tr>
+          <th>Pin ID</th>
+          <th>Title</th>
+          <th>Body</th>
+          <th>Image</th>
+          <th>User ID</th>
+          <th>Added Date</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="pin-id"></p>
+        <p id="pin-title"></p>
+        <p id="pin-body"></p>
+        <div>
+          Pin Image
+          <p id="pin-image"></p>
+        </div>
+        <p id="pin-user-id"></p>
+        <p id="pin-added-date"></p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
